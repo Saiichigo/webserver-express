@@ -1,0 +1,15 @@
+{{> header}}
+    {{!-- el signo de mayor se usa para renderizar el componente navbar que esta en otra carpeta..  --}}
+    {{!-- esto se debe a que estamos usando el hbs para el renderizar --}}
+    {{> navbar}}
+
+      <div class="jumbotron">
+        <h1 class="display-4">Hello,{{ capitalizar 'guillermo bulo' }}!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>Cualquier cosa</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+
+     {{> footer}}
+     
